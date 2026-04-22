@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bidex Restaurant</title>
+    <link rel="stylesheet" href="/style.css/style.css">
+</head>
+<body>
+   <nav class="navBar">
+<ul>
+   <li><a href="#Home">Home</a></li> 
+   <li><a href="#menu">Menu</a></li> 
+   <li><a href="#reservation">Reservations</a></li> 
+   <li> <a href="#contact">Contact</a></li>
+</ul>
+   </nav>
+
+   <section id="home" class="order">
+<h1>Welcome to Bidex Restaurant</h1>
+<p>Enjoy The Finest Dishes In The Country</p>
+<button id="Place-button">Place Your Order</button>
+   </section>
+    
+<section id="menu">
+    <h2>Our Menu</h2>
+<div class="menu-items">
+<div class="menu-item">
+<img src="./IMG/spaghetti bongolese.jpeg" alt="Dish 1" srcset="">
+<p>A Special Italian Spaghetti Dish </p>
+<span>$20.90</span>
+</div>
+<div class="menu-item">
+<img src="./IMG/grilled sakmon.jpeg" alt="Dish 2" srcset="">
+<p>A Delicioulsly Grilled Salmon </p>
+<span>$27.89</span>
+</div>
+<div class="menu-item">
+<img src="./IMG/cesear salad.jpeg" alt="Dish 3" srcset="">
+<p>A Well Cooked Ceaser Salad </p>
+<span>$35.90</span>
+</div>
+</div>
+</section>
+  
+<section id="reservation">
+<h2>Book a Table</h2>
+<form  id="reservation-form">
+<label for="name">Name</label>
+<input type="text" id="name" required>
+
+<label for="date">Reservation Date</label>
+<input type="date" id="date" required>
+
+<label for="time">Time</label>
+<input type="time" id="time" required>
+
+<label for="people">People</label>
+<input type="number" id="people" min="4" required><br>
+
+<button type="submit">Book a Table</button>
+</form>
+</section>
+
+<section id="contact">
+<h2>Contact Us</h2>
+<p>If You Have any issues or you need help with Delivery!</p>
+<address>
+
+<p> Email:Bidex Restuarant@gmail.com</p>
+<p>Phone: +2348128957346</p>
+</address>
+</section>
+
+<footer>
+<p>&copy; 2024  Bidex  Restaurant| All Rights Reserved</p>
+</footer>
+<script src="/index.js/index.js"></script>
+</body>
+</html>

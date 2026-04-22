@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color:    lightcoral;
+}
+.navBar{
+    background-color: lightgreen;
+    padding: 1rem;
+}
+.navBar ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 23px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.navBar ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.navBar  ul li a:hover{
+    color: purple;
+    text-decoration: none;
+}
+.order{
+    background-image: url("./IMG/Restaurant1.jpeg");
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+}
+.order h1{
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+.order p{
+    font-size: 3rem;
+    margin-bottom: 20px;
+font-weight: bold;
+font: italic;
+}
+.order button{
+    background-color: orange;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+.order button:hover{
+    color: black;
+}
+#menu{
+    padding: 50px 20px;
+    text-align: center;
+    background-color:whitesmoke;
+}
+#menu h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.menu-items{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.menu-item{
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+}
+.menu-item img{
+    width: 155px;
+    height: auto;
+    border-radius: 10px;
+    transition: 0.5 ease;
+}
+.menu-item img:hover{
+animation: zoomIn 2s ease-in-out forwards; 
+}
+@keyframes zoomIn {
+    0% {
+        transform: scale(1); /* Start with the normal size */
+    }
+    100% {
+        transform: scale(1.2); /* End with a zoomed-in effect */
+    }
+}
+
+.menu-item p {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.menu-item span{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 1.2rem;
+    color: orange;
+}
+#reservation{
+    padding: 50px 20px;
+    background-color: whitesmoke;
+}
+#reservation h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#reservation-form{
+    max-width: 500px;
+    margin: 0 auto;
+}
+#reservation-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+#reservation-form input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+#reservation-form button{
+width: 100%;
+padding: 10px;
+cursor: pointer;
+background-color: orange;
+border: none;
+color: white;
+font-size: 1.5rem;
+}
+
+#reservation-form button:hover{
+    background-color: orangered;
+}
+#contact{
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+#contact h2{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+#contact p{
+    font-size: 1.3rem;
+}
+footer{
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
