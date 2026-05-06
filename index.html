@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bidex Restaurant</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header>
+<nav class="navbar">
+<div class="logo">Bidex</div>
+
+<ul class="nav-links">
+<li><a href="#home">Home</a></li>
+<li><a href="#menu">Menu</a></li>
+<li><a href="#reservation">Reservations</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+<div class="menu-toggle">&#9776;</div>
+</nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+<div class="overlay"></div>
+<div class="hero-content">
+<h1>Welcome to Bidex Restaurant</h1>
+<p>Experience Luxury Dining Like Never Before</p>
+<button class="btn">Reserve a Table</button>
+</div>
+</section>
+
+<!-- MENU -->
+<section id="menu" class="menu">
+<h2>Our Menu</h2>
+
+<div class="menu-container">
+
+<div class="menu-card">
+<img src="./IMG/spaghetti bongolese.jpeg">
+<h3>Spaghetti Bolognese</h3>
+<p>Classic Italian pasta with rich meat sauce</p>
+<span>$20.90</span>
+</div>
+
+<div class="menu-card">
+<img src="./IMG/grilled sakmon.jpeg">
+<h3>Grilled Salmon</h3>
+<p>Perfectly grilled salmon with herbs</p>
+<span>$27.89</span>
+</div>
+
+<div class="menu-card">
+<img src="./IMG/cesear salad.jpeg">
+<h3>Caesar Salad</h3>
+<p>Fresh salad with creamy dressing</p>
+<span>$15.90</span>
+</div>
+
+</div>
+</section>
+
+<!-- RESERVATION -->
+<section id="reservation" class="reservation">
+<h2>Book a Table</h2>
+
+<form class="reservation-form">
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Email" required>
+<input type="tel" placeholder="Phone Number" required>
+
+<input type="date" required>
+<input type="time" required>
+<input type="number" placeholder="Guests" min="1" required>
+
+<button type="submit" class="btn">Book Now</button>
+</form>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+<h2>Contact Us</h2>
+<p>Need help or have questions? Reach out to us.</p>
+
+<div class="contact-info">
+<p>Email: bidexrestaurant@gmail.com</p>
+<p>Phone: +234 812 895 7346</p>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+<p>&copy; 2024 Bidex Restaurant. All rights reserved.</p>
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>
