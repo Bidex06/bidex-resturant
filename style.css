@@ -11,7 +11,23 @@ body {
     color: #fff;
     line-height: 1.6;
 }
+/* TOP BANNER */
+.top-banner {
+    background: #c9a86a;
+    text-align: center;
+    padding: 10px 15px;
+}
 
+.top-banner a {
+    color: #000;
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-decoration: underline;
+}
+
+.top-banner a:hover {
+    color: #333;
+}
 /* NAVBAR */
 .navbar {
     display: flex;
